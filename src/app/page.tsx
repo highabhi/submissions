@@ -16,7 +16,7 @@ export default function Home() {
         </CardHeader>
         <CardContent className="flex  flex-col space-y-4">
           <Link href="/student" passHref>
-            <Button className="w-full  text-black text-lg py-6">Student</Button>
+            <Button className="w-full  text-white text-lg py-6">Student</Button>
           </Link>
           <Link href="/teacher" passHref>
             <Button variant="outline" className="w-full text-black text-lg py-6">
